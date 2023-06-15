@@ -1,0 +1,170 @@
+Coluna,Descrição,Valores
+TP_NOT,Tipo de notificação,2 = individual
+ID_AGRAVO,Agravo/doença = Violencia interpessoal/autoprovocada (cod CID10,(cod CID10 - Y09)
+DT_NOTIFIC,Data da notificação,
+SEM_NOT,,
+NU_ANO,ano da notificação,
+SG_UF_NOT,código da UF de notificação (estado),
+ID_MUNICIP,código IBGE do município da notificação,
+TP_UNI_EXT,,
+NM_UNI_EXT,,
+CO_UNI_EXT,,
+ID_UNIDADE,código de identificação das unidades,
+ID_REGIONA,,
+ID_RG_RESI,,
+DT_OCOR,data da ocorrência (pode ser anterior a notificação),
+SEM_PRI,,
+DT_NASC,data de nascimento do individuo,
+NU_IDADE_N,idade do individuo (com codigo do datasus) no momento da notificação,
+CS_SEXO,sexo,"M= masculino, F= feminino, I=ignorado"
+CS_GESTANT,gestação,"1= 1° trimestre, 2= 2° trim, 3= 3° trim, 4= idade gestacional ignorada, 5= nao, 6= nao se aplica, 9= ignorado"
+CS_RACA,raça/cor,"1= branca, 2= preta, 3= amarela, 4= parda, 5= indigena, 9= ignorado"
+CS_ESCOL_N,escolaridade,"1= 1ª a 4ª serie incompleta, 2= 4ª serie completa, 3= 5ª a 8ª serie incompleta, 4= fundamental completo, 5= ensino medio incompleto, 6= medio completo, 7= superior incompleto, 8= superior completo, 9= ignorado, 10= nao se aplica"
+SG_UF,codigo UF (estado),
+ID_MN_RESI,codigo IBGE do municipio de residencia,
+ID_PAIS,codigo identificação do país,
+NDUPLIC,,
+DT_INVEST,,
+ID_OCUPA_N,"identificação da ocupação (Classificação Brasileira de Ocupações, CBO)",
+SIT_CONJUG,situação conjugal/estado civil,"1= solteiro, 2= casado/uniao consensual, 3= viuvo, 4= separado, 8= nao se aplica, 9= ignorado"
+DEF_TRANS,deficiencia ou transtorno,"1= sim, 2= nao, 9= ignorado"
+DEF_FISICA,deficiencia fisica,"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+DEF_MENTAL,deficiencia intelectual,"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+DEF_VISUAL,deficiencia visual,"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+DEF_AUDITI,deficiencia auditiva,"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+TRAN_MENT,transtorno mental,"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+TRAN_COMP,transtorno de comportamento,"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+DEF_OUT,outras deficiencias,"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+DEF_ESPEC,especificação da deficiencia ou transtorno,
+SG_UF_OCOR,codigo da UF de ocorrencia,
+ID_MN_OCOR,codigo IBGE por municipio de occorencia,
+HORA_OCOR,horario da ocorrencia (relogio de 24 horas),
+LOCAL_OCOR,local da ocorrencia,"1= residencia, 2= habitação coletiva, 3= escola, 4= local de pratica esportiva, 5= bar ou similar, 6= via publica, 7= comercio/serviços, 8= industria/construção, 9= outro, 99= ignorado"
+LOCAL_ESPE,local especifico se o anterior = 9,
+OUT_VEZES,ocorreu outras vezes,"1= sim, 2= nao, 9= ignorado"
+LES_AUTOP,lesão foi autoprovocada,"1= sim, 2= nao, 9= ignorado"
+VIOL_FISIC,violencia fisica,"1= sim, 2= nao, 9= ignorado"
+VIOL_PSICO,violencia psicologia/moral,"1= sim, 2= nao, 9= ignorado"
+VIOL_TORT,tortura,"1= sim, 2= nao, 9= ignorado"
+VIOL_SEXU,violencia sexual,"1= sim, 2= nao, 9= ignorado"
+VIOL_TRAF,trafico de seres humanos,"1= sim, 2= nao, 9= ignorado"
+VIOL_FINAN,violencia financeira/economica,"1= sim, 2= nao, 9= ignorado"
+VIOL_NEGLI,negligencia/abandono,"1= sim, 2= nao, 9= ignorado"
+VIOL_INFAN,trabalho infantil,"1= sim, 2= nao, 9= ignorado"
+VIOL_LEGAL,intervenção legal,"1= sim, 2= nao, 9= ignorado"
+VIOL_OUTR,outro tipo de violencia,"1= sim, 2= nao, 9= ignorado"
+VIOL_ESPEC,especificação do tipo de violencia,
+AG_FORCA,meio de agressão (força corporal/espancamento),"1= sim, 2= nao, 9= ignorado"
+AG_ENFOR,meio de agressão (enforcamento),"1= sim, 2= nao, 9= ignorado"
+AG_OBJETO,meio de agressão (objeto contundente),"1= sim, 2= nao, 9= ignorado"
+AG_CORTE,meio de agressão (objeto perfuro/cortante),"1= sim, 2= nao, 9= ignorado"
+AG_QUENTE,meio de agressão (substancia/objeto quente),"1= sim, 2= nao, 9= ignorado"
+AG_ENVEN,meio de agressão (intoxicação/envenenamento),"1= sim, 2= nao, 9= ignorado"
+AG_FOGO,meio de agressão (arma de fogo),"1= sim, 2= nao, 9= ignorado"
+AG_AMEACA,meio de agressão (ameaça (violencia psicologia/moral)),"1= sim, 2= nao, 9= ignorado"
+AG_OUTRO,meio de agressão (outro),"1= sim, 2= nao, 9= ignorado"
+AG_ESPEC,especificação do meio de agressão,
+SEX_ASSEDI,violencia sexual (assedio),"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+SEX_ESTUPR,violencia sexual (estupro),"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+SEX_PUDOR,violencia sexual (atentado ao pudor),"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+SEX_PORNO,violencia sexual (pornografia infantil),"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+SEX_EXPLO,violencia sexual (exploração sexual),"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+SEX_OUTRO,violencia sexual (outro),"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+SEX_ESPEC,especificação violencia sexual,
+PEN_ORAL,penetração oral,"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+PEN_ANAL,penetração anal,"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+PEN_VAGINA,penetração vaginal,"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+PROC_DST,procedimento realizado (profilaxia DST),"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+PROC_HIV,procedimento realizado (profilaxia HIV),"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+PROC_HEPB,procedimento realizado (profilaxia hepatite B),"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+PROC_SANG,procedimento realizado (coleta de sangue),"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+PROC_SEMEN,procedimento realizado (coleta de semen),"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+PROC_VAGIN,procedimento realizado (coleta de secreção vaginal),"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+PROC_CONTR,procedimento realizado (contracepção de emergencia),"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+PROC_ABORT,procedimento realizado (aborto previsto em lei),"1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+CONS_ABORT,,
+CONS_GRAV,,
+CONS_DST,,
+CONS_SUIC,,
+CONS_MENT,,
+CONS_COMP,,
+CONS_ESTRE,,
+CONS_OUTR,,
+CONS_ESPEC,,
+LESAO_NAT,,
+LESAO_ESPE,,
+LESAO_CORP,,
+NUM_ENVOLV,numero de envolvidos,"1= um, 2= dois ou mais, 9= ignorado"
+REL_SEXUAL,,
+REL_PAI,vinculo/grau de parentesco com a pessoa atendida (pai),"1= sim, 2= nao, 9= ignorado"
+REL_MAE,vinculo/grau de parentesco com a pessoa atendida (mae),"1= sim, 2= nao, 9= ignorado"
+REL_PAD,vinculo/grau de parentesco com a pessoa atendida (padrasto),"1= sim, 2= nao, 9= ignorado"
+REL_CONJ,vinculo/grau de parentesco com a pessoa atendida (conjuge),"1= sim, 2= nao, 9= ignorado"
+REL_EXCON,vinculo/grau de parentesco com a pessoa atendida (ex-conjuge),"1= sim, 2= nao, 9= ignorado"
+REL_NAMO,vinculo/grau de parentesco com a pessoa atendida (namorado(a)),"1= sim, 2= nao, 9= ignorado"
+REL_EXNAM,vinculo/grau de parentesco com a pessoa atendida (ex-namorado(a)),"1= sim, 2= nao, 9= ignorado"
+REL_FILHO,vinculo/grau de parentesco com a pessoa atendida (filho(a)),"1= sim, 2= nao, 9= ignorado"
+REL_DESCO,vinculo/grau de parentesco com a pessoa atendida (deconhecido),"1= sim, 2= nao, 9= ignorado"
+REL_IRMAO,vinculo/grau de parentesco com a pessoa atendida (irmão(a)),"1= sim, 2= nao, 9= ignorado"
+REL_CONHEC,vinculo/grau de parentesco com a pessoa atendida (amigos/conhecidos),"1= sim, 2= nao, 9= ignorado"
+REL_CUIDA,vinculo/grau de parentesco com a pessoa atendida (cuidador(a)),"1= sim, 2= nao, 9= ignorado"
+REL_PATRAO,vinculo/grau de parentesco com a pessoa atendida (patrao/chefe),"1= sim, 2= nao, 9= ignorado"
+REL_INST,vinculo/grau de parentesco com a pessoa atendida (pessoa com relação institucional),"1= sim, 2= nao, 9= ignorado"
+REL_POL,vinculo/grau de parentesco com a pessoa atendida (policial/agente de lei),"1= sim, 2= nao, 9= ignorado"
+REL_PROPRI,vinculo/grau de parentesco com a pessoa atendida (propria pessoa),"1= sim, 2= nao, 9= ignorado"
+REL_OUTROS,vinculo/grau de parentesco com a pessoa atendida (outros),"1= sim, 2= nao, 9= ignorado"
+REL_ESPEC,vinculo/grau de parentesco com a pessoa atendida,especificação
+AUTOR_SEXO,sexo do provavel autor da violencia,"1= masculino, 2= feminino, 3= ambos os sexos, 9= ignorado"
+AUTOR_ALCO,suspeita de uso de alcool,"1= sim, 2= nao, 9= ignorado"
+ENC_SAUDE,,
+ENC_TUTELA,,
+ENC_VARA,,
+ENC_ABRIGO,,
+ENC_SENTIN,,
+"ENC_DEAM,",,
+ENC_DPCA,,
+ENC_DELEG,,
+ENC_MPU,,
+ENC_CREAS,,
+ENC_IML,,
+ENC_OUTR,,
+ENC_ESPEC,,
+REL_TRAB,violencia relacionada ao trabalho,"1= sim, 2= nao, 9= ignorado"
+REL_CAT,"se for violencia no trabalho, foi emitida a comunicação de acidente do trabalho (cat)","1= sim, 2= nao, 8= nao se aplica, 9= ignorado"
+CIRC_LESAO,circunstancia da lesao,CID 10 cap XX
+CLASSI_FIN,,
+EVOLUCAO,,
+DT_OBITO,,
+REL_MAD,vinculo/grau de parentesco com a pessoa atendida (madrasta),"1= sim, 2= nao, 9= ignorado"
+TPUNINOT,,
+ORIENT_SEX,orientação sexual,"1= heterossexual, 2= homossexual (gay/lesbica), 3=bissexual, 8= nao se aplica, 9= ignorado"
+IDENT_GEN,identidade de genero,"1= travesti, 2= mulher transexual, 3= homem transexual, 8= nao se aplica, 9= ignorado"
+VIOL_MOTIV,violencia motivada por,"1= sexismo, 2= LGBTQIA+ fobia, 3= racismo, 4= intolerancia religiosa, 5= xenofobia, 6= conflito geracional, 7= situação de rua, 8= deficiencia, 9= outros, 88= nao se aplica, 99= ignorado"
+CICL_VID,ciclo de vida so provavel autor da violencia,"1= criança (0-9 anos), 2= adolescente (10-19), 3= jovem (20-24), 4= pessoa adulta (25-59), 5= pessoa idosa (60 anos ou mais), 9= ignorado"
+REDE_SAU,"encaminhamento,  rede de saude (unidade basica de saude, hospital, outras)","1= sim, 2= nao, 9= ignorado"
+ASSIST_SOC,"encaminhamento,  rede de assistencia social (cras, creas, outras)","1= sim, 2= nao, 9= ignorado"
+REDE_EDUCA,"encaminhamento,  rede da educação (creche, escola, outras)","1= sim, 2= nao, 9= ignorado"
+ATEND_MULH,"encaminhamento,  rede de atendimento a mulher (centro especializado de atendimento a mulher, casa da mulher brasileira, outras)","1= sim, 2= nao, 9= ignorado"
+CONS_TUTEL,encaminhamento (conselho tutelar),"1= sim, 2= nao, 9= ignorado"
+CONS_IDO,encaminhamento (conselho do idoso),"1= sim, 2= nao, 9= ignorado"
+DELEG_IDOS,encaminhamento (delegacia de atendimento ao idoso),"1= sim, 2= nao, 9= ignorado"
+DIR_HUMAN,encaminhamento (centro de referencia dos direitos humanos),"1= sim, 2= nao, 9= ignorado"
+MPU,encaminhamento ministerio publico,"1= sim, 2= nao, 9= ignorado"
+DELEG_CRIA,encaminhamento (delegacia especializada de proteção a criança e adolescente),"1= sim, 2= nao, 9= ignorado"
+DELEG_MULH,encaminhamento (delegacia de atendimento a mulher),"1= sim, 2= nao, 9= ignorado"
+DELEG,encaminhamento (outras delegacias),"1= sim, 2= nao, 9= ignorado"
+INFAN_JUV,encaminhamento (justiça da infancia e da juventude),"1= sim, 2= nao, 9= ignorado"
+DEFEN_PUBL,encaminhamento (defensoria publica),"1= sim, 2= nao, 9= ignorado"
+"DT_ENCERRA,",,
+ZONA,,
+ZONA_OCOR,,
+DT_DIGITA,,
+DT_TRANSUS,,
+DT_TRANSDM,,
+DT_TRANSSM,,
+DT_TRANSRM,,
+DT_TRANSRS,,
+DT_TRANSSE,,
+NU_LOTE_V,,
+NU_LOTE_H,,
+IDENT_MICR,,
