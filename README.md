@@ -1,4 +1,4 @@
-# SBBD
+
 This repository has the codes used during the production of the paper for Suicide Rates
 
 SIM data represent suicide completion data (individuals who died committing suicide).
